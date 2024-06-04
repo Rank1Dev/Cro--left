@@ -821,6 +821,11 @@ body {
     /* 53px, the ssme height as the cs-top-container */
     transform: translateY(-3.3125rem);
   }
+  #contact {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
   #cs-navigation {
     width: 100%;
     /* prevents padding from affecting height and width */

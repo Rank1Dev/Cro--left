@@ -968,6 +968,12 @@ body {
       }
   }
 
+  #contact {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
   #cs-navigation {
       width: 100%;
       /* prevents padding from affecting height and width */
