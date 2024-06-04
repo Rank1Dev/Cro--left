@@ -16,6 +16,7 @@
   #cs-contact {
     font-family: "Roboto", "Arial", sans-serif;
     padding: var(--sectionPadding);
+    margin-top: 100px;
   }
   #cs-contact .cs-container {
     width: 100%;
@@ -108,7 +109,7 @@
     font-weight: 700;
     line-height: 1.2em;
     margin-bottom: 0.5rem;
-    color: var(--bodyTextColorWhite);
+    color: white;
     display: block;
   }
   #cs-contact .cs-link {
@@ -117,7 +118,7 @@
     line-height: 1.2em;
     text-decoration: none;
     margin-bottom: 1.25rem;
-    color: var(--bodyTextColorWhite);
+    color: white;
     display: block;
     position: relative;
   }

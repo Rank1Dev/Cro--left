@@ -20,6 +20,7 @@
     #cs-contact {
         font-family: "Roboto", "Arial", sans-serif;
         padding: var(--sectionPadding);
+        margin-top: 100px;
 
         .cs-container {
             width: 100%;
@@ -123,7 +124,7 @@
             font-weight: 700;
             line-height: 1.2em;
             margin-bottom: calc(8 / 16 * 1rem);
-            color: var(--bodyTextColorWhite);
+            color: white;
             display: block;
         }
 
@@ -133,7 +134,7 @@
             line-height: 1.2em;
             text-decoration: none;
             margin-bottom: calc(20 / 16 * 1rem);
-            color: var(--bodyTextColorWhite);
+            color: white;
             display: block;
             position: relative;
 
