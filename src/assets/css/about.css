@@ -501,6 +501,7 @@
     margin: 0 0 0.75rem 0;
     color: var(--headerColor);
     transition: color 0.3s;
+    width: 1000px;
   }
   #services-1129 .cs-item-text {
     /* 14px - 16px */

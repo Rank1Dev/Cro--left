@@ -109,6 +109,9 @@ body {
       z-index: -1;
       transition: width 0.3s;
     }
+    .cs-light {
+      color: var(--primary);
+    }
   }
   /* Fonts and general styles */
   @media only screen and (min-width: 0em) {
@@ -1355,7 +1358,7 @@ body {
     #footer {
       font-size: min(4vw, 1.2em);
       padding: 5.25rem 0 1.25rem;
-      background: #1c1c1c;
+      background: #2A1A3F;
     }
     #footer .left-section {
       text-align: center;
@@ -1372,7 +1375,7 @@ body {
     }
     #footer .left-section .logo img {
       width: auto;
-      height: 100%;
+      height: 230%;
       display: block;
     }
     #footer .left-section p {
@@ -1563,7 +1566,11 @@ body {
   
   
   /*# sourceMappingURL=root.css.map */
-  span {
-    color:var(--primary)
+  
+
+  .hidden {
+    opacity: 0;
   }
+ 
+  
 
