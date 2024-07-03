@@ -175,6 +175,7 @@ body {
     p,
     li,
     a {
+      text-decoration: none;
       font-size: 1rem;
       line-height: 1.5em;
       margin: 0;
@@ -1194,6 +1195,7 @@ body {
       .cs-nav-button {
           line-height: calc(46/16 * 1rem);
           margin-left: calc(24/16 * 1rem);
+          border-radius: 3.125rem
       }
   }
 }

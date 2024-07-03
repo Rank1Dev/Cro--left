@@ -199,6 +199,9 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
+    .j {
+        text-align: center;
+    }
   #sbs-1095-1112 {
       padding: var(--sectionPadding);
   }

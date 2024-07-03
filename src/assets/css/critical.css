@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*-- -------------------------- -->
 <---           Hero             -->
 <--- -------------------------- -*/
@@ -142,7 +146,6 @@
   #hero-1352 .cs-picture img {
     width: 100%;
     height: auto;
-    margin-left: -100px;
   }
   #hero-1352 .cs-bubbles {
     /* this scales the children inside of it down. They're all in ems so they pull from the parent font size for their value of em, in this case, the value of em is tied to the viewwidth size and stops growing when the font size is equal to 1em, which it pulls from the nearst parent with a declred font size (which is the html tag, and that tag is 16px by default) */
@@ -297,6 +300,9 @@
 @media only screen and (min-width: 48rem) {
   #hero-1352 .cs-picture {
     bottom: -14.375rem;
+  }
+  #hero-1352 .cs-picture img {
+    margin-left: -100px;
   }
 }
 /* Large Desktop - 1300px */

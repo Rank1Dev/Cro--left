@@ -965,5 +965,13 @@
     opacity: 0.3;
   }
 }
+.services-links {
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=local.css.map */

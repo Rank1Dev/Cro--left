@@ -572,23 +572,6 @@
   #services-562 .cs-button-solid:hover:before {
     width: 100%;
   }
-  #services-562 .cs-picture {
-    /* changes at tablet */
-    width: 100%;
-    max-width: 39.375rem;
-    /* changes to a clamp at tablet */
-    height: 24.75rem;
-    display: block;
-    position: relative;
-  }
-  #services-562 .cs-picture img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
@@ -673,7 +656,7 @@
     text-align: center;
     margin: 0;
     margin-top: 2rem;
-    color: #fff;
+    color: #FFF;
     min-width: 9.375rem;
     padding: 0 3rem;
     background-color: var(--primary);
@@ -690,12 +673,14 @@
     position: absolute;
     height: 100%;
     width: 0%;
-    background: #000;
     opacity: 1;
     top: 0;
     left: 0;
     z-index: -1;
     transition: width 0.3s;
+  }
+  #content-1450 .cs-button-solid:hover {
+    color: var(--primary);
   }
   #content-1450 .cs-button-solid:hover:before {
     width: 100%;
